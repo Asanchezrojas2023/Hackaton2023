@@ -1,6 +1,6 @@
 
-2.
-function encontrarNumerosFaltantes(arr) {
+//2.
+/*function encontrarNumerosFaltantes(arr) {
     let numerosFaltantes = [];
     let resultado = encontrarNumerosFaltantes([1, 3, 4, 7]);
     for (let i = 0; i < arr.length - 1; i++) {
@@ -13,12 +13,40 @@ function encontrarNumerosFaltantes(arr) {
     }
     return numerosFaltantes;
 }
-console.log(resultado);
+console.log(resultado);*/
 
-/*3.
+
+
+3.
 function ordenarPalabras(cadena) {
     return cadena.split('').sort().join('');
-    let resultado =ordenarPalabras ("hola mundo");
-    console.log(resultado);
+    let resultado = ordenarPalabras ("hola mundo");
+    
 }
-/*
+console.log(resultado);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
