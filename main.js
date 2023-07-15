@@ -1,3 +1,36 @@
+//1
+function verificarCadena(cadena) {
+    if (cadena.length < 8) {
+        return false
+    }
+    let tieneMayusculas = false;
+    let tieneMinusculas = false;
+    let tieneNumero = false,
+
+for (let i = 0; i <cadena.length; i++){  
+      const caracter = cadena[i];
+    
+    if (caracter >= "A" && caracter <= "Z") {
+        tieneMayusculas = true;
+        
+    }else if (caracter >= "a" && caracter <= "z"){
+        tieneMinusculas = true;
+    }else if (caracter >= "0" && caracter <= "9"){
+        tieneNumero = true
+    }
+
+    if (tieneMayusculas && tieneMinusculas && tieneNumero) 
+    {
+        return true;
+    }
+  }
+  return false;
+}
+
+console.log(verificarCadena("Abc12345"));
+
+
+
 
 //2.
 /*function encontrarNumerosFaltantes(arr) {
@@ -27,7 +60,7 @@ console.log(resultado);*/
 
 
 //4.
-function contarVocales(cadena) {
+/*function contarVocales(cadena) {
     let contador= 0;
     const vocales = [a,e,i,o,u];
     for (let i= 0; i< cadena.length; i++) {
@@ -39,13 +72,26 @@ function contarVocales(cadena) {
         
         
 
-    }return contador;
+    }
     
     console.log(texto);
 }
-
-
-
+*/
+//5
+/*function esPrimo(numero) {
+    if (numero <= 1) {
+        return false
+    }
+    for (let i = 2; i < numero; i++) {
+        return false        
+    }
+}
+const numero = 7;
+const resultado = esPrimo(numero);
+if (resultado) {
+    console.log(`${numero}no es un numero primo.`);
+    
+}/*
 
 
 
