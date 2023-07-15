@@ -1,5 +1,5 @@
 //1
-function verificarCadena(cadena) {
+/*function verificarCadena(cadena) {
     if (cadena.length < 8) {
         return false
     }
@@ -33,7 +33,7 @@ console.log(verificarCadena("Abc12345"));
 
 
 //2.
-/*function encontrarNumerosFaltantes(arr) {
+function encontrarNumerosFaltantes(arr) {
     let numerosFaltantes = [];
     let resultado = encontrarNumerosFaltantes([1, 3, 4, 7]);
     for (let i = 0; i < arr.length - 1; i++) {
@@ -46,21 +46,21 @@ console.log(verificarCadena("Abc12345"));
     }
     return numerosFaltantes;
 }
-console.log(resultado);*/
+console.log(resultado);
 
 
 
 //3.
-/*function ordenarPalabras(cadena) {
+function ordenarPalabras(cadena) {
     return cadena.split('').sort().join('');
     let resultado = ordenarPalabras ("hola mundo");
     
 }
-console.log(resultado);*/
+console.log(resultado);
 
 
 //4.
-/*function contarVocales(cadena) {
+function contarVocales(cadena) {
     let contador= 0;
     const vocales = [a,e,i,o,u];
     for (let i= 0; i< cadena.length; i++) {
@@ -76,9 +76,9 @@ console.log(resultado);*/
     
     console.log(texto);
 }
-*/
+
 //5
-/*function esPrimo(numero) {
+function esPrimo(numero) {
     if (numero <= 1) {
         return false
     }
@@ -91,11 +91,24 @@ const resultado = esPrimo(numero);
 if (resultado) {
     console.log(`${numero}no es un numero primo.`);
     
-}/*
+}
+*/
+
+//6.
 
 
+l
+function factorial (numero) {
+    for (let i = 0; i <= numero; i++) {
+    resultado *= i;
+        
+    }
+    return resultado;
+}
 
-
+const numero = 5;
+const resultado = factorial(numero);
+console.log(`el factorial de ${num} es ${resultado}.`);
 
 
 
