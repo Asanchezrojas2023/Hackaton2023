@@ -17,17 +17,32 @@ console.log(resultado);*/
 
 
 
-3.
-function ordenarPalabras(cadena) {
+//3.
+/*function ordenarPalabras(cadena) {
     return cadena.split('').sort().join('');
     let resultado = ordenarPalabras ("hola mundo");
     
 }
-console.log(resultado);
+console.log(resultado);*/
 
 
+//4.
+function contarVocales(cadena) {
+    let contador= 0;
+    const vocales = [a,e,i,o,u];
+    for (let i= 0; i< cadena.length; i++) {
+        if (vocales.includes(cadena[i].toLowercase())) {
+            contador++;
+        }
+        const texto = "Hola Mundo";
+        const numVocales = contarVocales(texto);
+        
+        
 
-
+    }return contador;
+    
+    console.log(texto);
+}
 
 
 
