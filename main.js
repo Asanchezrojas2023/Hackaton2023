@@ -96,8 +96,6 @@ if (resultado) {
 
 //6.
 
-
-l
 function factorial (numero) {
     for (let i = 0; i <= numero; i++) {
     resultado *= i;
